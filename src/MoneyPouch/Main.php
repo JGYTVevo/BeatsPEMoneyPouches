@@ -27,8 +27,7 @@ use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\TextFormat as TF;
 
 
-
-use onebone\economy\EconomyAPI;
+use onebone\economyapi\EconomyAPI;
 
 
 
