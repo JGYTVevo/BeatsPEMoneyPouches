@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener {
 
 		
 
-		$this->getServer()->getLogger()->notice("MoneyPouch has been enabled!");
+		$this->getServer()->getLogger()->notice("MoneyPouch has been enabled! Remember to wash your hands!");
 
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 
@@ -94,7 +94,7 @@ class Main extends PluginBase implements Listener {
 
 							
 
-							$tier1 = Item::get(Item::ENDER_CHEST, 101, 1);
+							$tier1 = Item::get(Item::CHEST, 101, 1);
 
 							$tier1->setCustomName(TF::RESET . TF::BOLD . TF::LIGHT_PURPLE . "Money Pouch" . TF::RESET . TF::GRAY . " (Tap anywhere)" . PHP_EOL . PHP_EOL . 
 
@@ -116,7 +116,7 @@ class Main extends PluginBase implements Listener {
 
 							
 
-							$tier2 = Item::get(Item::ENDER_CHEST, 102, 1);
+							$tier2 = Item::get(Item::CHEST, 102, 1);
 
 							$tier2->setCustomName(TF::RESET . TF::BOLD . TF::LIGHT_PURPLE . "Money Pouch" . TF::RESET . TF::GRAY . " (Tap anywhere)" . PHP_EOL . PHP_EOL . 
 
@@ -138,7 +138,7 @@ class Main extends PluginBase implements Listener {
 
 							
 
-							$tier3 = Item::get(Item::ENDER_CHEST, 103, 1);
+							$tier3 = Item::get(Item::CHEST, 103, 1);
 
 							$tier3->setCustomName(TF::RESET . TF::BOLD . TF::LIGHT_PURPLE . "Money Pouch" . TF::RESET . TF::GRAY . " (Tap anywhere)" . PHP_EOL . PHP_EOL . 
 
@@ -160,7 +160,7 @@ class Main extends PluginBase implements Listener {
 
 							
 
-							$tier4 = Item::get(Item::ENDER_CHEST, 104, 1);
+							$tier4 = Item::get(Item::CHEST, 104, 1);
 
 							$tier4->setCustomName(TF::RESET . TF::BOLD . TF::LIGHT_PURPLE . "Money Pouch" . TF::RESET . TF::GRAY . " (Tap anywhere)" . PHP_EOL . PHP_EOL . 
 
@@ -182,7 +182,7 @@ class Main extends PluginBase implements Listener {
 
 							
 
-							$tier5 = Item::get(Item::ENDER_CHEST, 105, 1);
+							$tier5 = Item::get(Item::CHEST, 105, 1);
 
 							$tier5->setCustomName(TF::BOLD . TF::LIGHT_PURPLE . "Money Pouch" . TF::RESET . TF::GRAY . " (Tap anywhere)" . PHP_EOL . PHP_EOL . 
 
