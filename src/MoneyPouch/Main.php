@@ -28,7 +28,7 @@ use pocketmine\utils\TextFormat as TF;
 
 
 
-use onebone\economyapi\EconomyAPI;
+use onebone\economy\EconomyAPI;
 
 
 
