@@ -1,7 +1,7 @@
 name: MoneyPouch
 main: MoneyPouch\Main
 version: 2.0.0
-api: [3.0.0-ALPHA11, 3.0.0-ALPHA12]
+api: [3.0.0]
 author: QuiltedTuba2798
 description: MoneyPouch
 commands:
