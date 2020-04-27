@@ -4,4 +4,7 @@ branches:
 projects:
   BeatsPEMoneyPouches:
     path: ""
+    lint:
+      phpstan: false
+    icon: icon.png  
 ...
