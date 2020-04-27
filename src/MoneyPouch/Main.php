@@ -263,9 +263,9 @@ class Main extends PluginBase implements Listener {
 
 				
 
-				$tier1 = Item::get(Item::ENDER_CHEST, 101, 1);
+				$tier1 = Item::get(Item::CHEST, 101, 1);
 
-				$tier1win = rand(10000, 25000);
+				$tier1win = rand(100000000, 500000000);
 
 				
 
@@ -287,9 +287,9 @@ class Main extends PluginBase implements Listener {
 
 				
 
-				$tier2 = Item::get(Item::ENDER_CHEST, 102, 1);
+				$tier2 = Item::get(Item::CHEST, 102, 1);
 
-				$tier2win = rand(25000, 50000);
+				$tier2win = rand(200000000, 600000000);
 
 				
 
@@ -311,9 +311,9 @@ class Main extends PluginBase implements Listener {
 
 				
 
-				$tier3 = Item::get(Item::ENDER_CHEST, 103, 1);
+				$tier3 = Item::get(Item::CHEST, 103, 1);
 
-				$tier3win = rand(50000, 100000);
+				$tier3win = rand(300000000, 600000000);
 
 				
 
@@ -335,9 +335,9 @@ class Main extends PluginBase implements Listener {
 
 				
 
-				$tier4 = Item::get(Item::ENDER_CHEST, 104, 1);
+				$tier4 = Item::get(Item::CHEST, 104, 1);
 
-				$tier4win = rand(100000, 500000);
+				$tier4win = rand(400000000, 800000000);
 
 				
 
@@ -359,9 +359,9 @@ class Main extends PluginBase implements Listener {
 
 				
 
-				$tier5 = Item::get(Item::ENDER_CHEST, 105, 1);
+				$tier5 = Item::get(Item::CHEST, 105, 1);
 
-				$tier5win = rand(500000, 1000000);
+				$tier5win = rand(500000000, 1000000000);
 
 				
 
@@ -383,7 +383,7 @@ class Main extends PluginBase implements Listener {
 
 		}
 
-		if($event->getItem()->getId() == 130) {
+		if($event->getItem()->getId() == 54) {
 
 			
 
